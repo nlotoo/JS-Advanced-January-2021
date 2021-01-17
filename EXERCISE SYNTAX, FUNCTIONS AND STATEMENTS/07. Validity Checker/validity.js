@@ -22,4 +22,3 @@ function solve(x1, x2, y1, y2) {
 
 
 }
-console.log(solve(3, 0, 0, 4))
