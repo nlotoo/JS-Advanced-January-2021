@@ -15,5 +15,3 @@ function solve(number) {
     console.log(`${isSame}\n${sum}`)
 
 }
-solve(1234)
-solve(2222222)
