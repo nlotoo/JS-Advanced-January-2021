@@ -39,4 +39,3 @@ function solve(speedKmH, area) {
 
 
 }
-solve(40, 'city')
