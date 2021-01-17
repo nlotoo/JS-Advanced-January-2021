@@ -10,16 +10,4 @@ function solve(steps, footprint, speedKmH) {
     const seconds = Math.floor(time - hours * 60 * 60 - minutes * 60).toFixed(0).padStart(2, '0')
 
     return console.log(`${hours}: ${minutes}: ${seconds}`)
-
-
-
-
-
-
-
-
-
-
-
-
 }
