@@ -42,5 +42,3 @@ function solve(num, firstOp, secondOp, thirdOp, fourthOp, fifthOp) {
 
 
 }
-//solve('32', 'chop', 'chop', 'chop', 'chop', 'chop')
-solve('9', 'dice', 'spice', 'chop', 'bake', 'fillet')
