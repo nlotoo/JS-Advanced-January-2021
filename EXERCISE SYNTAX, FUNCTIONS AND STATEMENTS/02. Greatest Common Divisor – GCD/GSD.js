@@ -11,5 +11,4 @@ function GSD(x, y) {
     return x;
   }
   
-  console.log(GSD(15, 5));
-  console.log(GSD(2154, 458));
+ 
