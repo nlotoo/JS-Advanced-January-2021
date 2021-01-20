@@ -7,7 +7,7 @@ function solve(steps, footprint, speedKmH) {
     const time = distance / speed + rest
     const hours = Math.floor(time / 60 / 60).toFixed(0).padStart(2, '0')
     const minutes = Math.floor((time - hours * 3600) / 60).toFixed(0).padStart(2, '0')
-    const seconds = Math.floor(time - hours * 60 * 60 - minutes * 60).toFixed(0).padStart(2, '0')
+    const seconds = (time - hours * 60 * 60 - minutes * 60).toFixed(0).padStart(2, '0')
 
-    return console.log(`${hours}: ${minutes}: ${seconds}`)
+    return console.log(`${hours}:${minutes}:${seconds}`)
 }
