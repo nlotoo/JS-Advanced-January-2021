@@ -1,20 +1,3 @@
-
-// let arr = [1, 2, 3, 4, 5, 6]
-
-// arr =arr.slice(1, 1)
-// console.log(arr)
-
-
-
-// stopera;
-// •	add(elemenent) - adds a new element to the collection
-// •	remove(index) - removes the element at position index
-// •	get(index) - returns the value of the element at position index
-// •	size - number of elements stored in the collection
-
-
-
-
 class List {
     constructor() {
         this.colection = [];
@@ -57,16 +40,6 @@ class List {
         return this.colection.length
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
